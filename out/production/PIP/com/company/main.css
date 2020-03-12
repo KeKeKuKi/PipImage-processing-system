@@ -1,0 +1,79 @@
+
+
+
+.menu-bar{
+    -fx-background-color: rgba(0, 65, 84, 0.98);
+    -fx-font-size: 13px;
+}
+.menu-bar .label{
+    -fx-text-fill: #dbdfe9;
+}
+
+.menu-bar .label:hover{
+    -fx-text-fill: #fff;
+}
+.menu{
+    -fx-background-color: rgba(0, 65, 84, 0.98);
+    -fx-border-style: none;
+}
+.root{
+    -fx-background-color: #001d3e;
+}
+.menu-item{
+    -fx-background-color: rgba(0, 59, 84, 0.98);
+    -fx-font-size: 13px;
+}
+.menu-item:hover{
+    -fx-background-color: rgba(0, 64, 84, 0.69);
+    -fx-font-size: 13px;
+}
+.fileMenu{
+    -fx-background-color: #fff;
+}
+
+#openbut{
+    -fx-text-fill: #c8edfa;
+    -fx-font-size: 40px;
+    -fx-font-family: '微软雅黑';
+    -fx-background-color: rgba(30, 40, 48, 0.96);
+    -fx-border-width: 1px;
+    -fx-border-color: #07233b;
+    -fx-border-radius: 0px;
+}
+
+
+#openbut:hover{
+    -fx-text-fill: rgb(248, 255, 245);
+    -fx-font-size: 40px;
+    -fx-font-family: '微软雅黑';
+    -fx-background-color: rgba(18, 21, 28, 0.96);
+    -fx-border-width: 1px;
+    -fx-border-color: #003b51;
+    -fx-border-radius: 0px;
+}
+#viewbut{
+
+    -fx-text-fill: #c3dcec;
+    -fx-font-size: 16px;
+    -fx-font-family: '微软雅黑';
+    -fx-background-color: #323b3f;
+    -fx-border-width: 1px;
+    -fx-border-color: #004251;
+    -fx-border-radius: 0px;
+}
+
+#yasuobut{
+    -fx-text-fill: #b6e4ec;
+    -fx-font-size: 16px;
+    -fx-font-family: '微软雅黑';
+    -fx-background-color: #2f3c3f;
+    -fx-border-width: 1px;
+    -fx-border-color: #003251;
+    -fx-border-radius: 0px;
+}
+
+#root4{
+    -fx-background-color: rgba(0, 43, 65, 0.98);
+}
+
+

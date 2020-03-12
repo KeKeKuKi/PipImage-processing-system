@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PIP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PIP_jar</output-path>
+    <root id="archive" name="PIP.jar">
+      <element id="module-output" name="PIP" />
+    </root>
+  </artifact>
+</component>
