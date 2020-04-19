@@ -1565,6 +1565,7 @@ public class Main extends Application {
         return inverted_image;
     }
 
+    //打开图片
     public Image openimage(){
 
 
@@ -1589,6 +1590,7 @@ public class Main extends Application {
 
     }
 
+    //保存图片
     public void saveimage(Image image){
         Stage slStage = null;
 
@@ -1626,7 +1628,6 @@ public class Main extends Application {
 
     }
 
-
     //Example function of invert
     public Image ImageInverter(Image image) {
         //获得宽高
@@ -1652,7 +1653,6 @@ public class Main extends Application {
         }
         return inverted_image;
     }
-
 
     //线稿提取
     public Image ImageXiangao(Image image) {
@@ -1680,9 +1680,6 @@ public class Main extends Application {
         }
         return inverted_image;
     }
-
-
-
 
     //Gamma矫正
     public Image ImageGamma(Image image,double gamma) {
@@ -1813,7 +1810,6 @@ public class Main extends Application {
 
 
     //对比度拉伸
-
     public Image ImageContrast(Image image,int min,int max) {
 
         int width = (int)image.getWidth();
@@ -1827,60 +1823,54 @@ public class Main extends Application {
 
         double contrastd[] = new double[256];
 
-//        for(int i=0;i<contrastd.length;i++){
-//            contrastd[i] = (((double) i-(double)min)/((double)max-(double) min))*255;
-//            if(contrastd[i]>255) contrastd[i] = 255.0;
-//            else if(contrastd[i]<0) contrastd[i]=0.0;
-//        }
-//
-//        for(int y = 0; y < height; y++) {
-//            for(int x = 0; x < width; x++) {
-//                Color color = image_reader.getColor(x, y);
-//                color=Color.color(contrastd[(int)(color.getRed()*255)]/255d, contrastd[(int)(color.getGreen()*255)]/255d, contrastd[(int)(color.getBlue()*255)]/255d);
-//                contrast_image_writer.setColor(x, y, color);
-//            }
-//        }
-//        for(int y = 0; y < height; y++) {
-//            for(int x = 0; x < width; x++) {
-//                Color color = image_reader.getColor(x, y);
-//                color=Color.color(contrastd[(int)(color.getRed()*255)]/255d, contrastd[(int)(color.getGreen()*255)]/255d, contrastd[(int)(color.getBlue()*255)]/255d);
-//                contrast_image_writer.setColor(x, y, color);
-//            }
-//        }
-
-        for(int i=0;i<min;i++){
-            contrastd[i]=0.0;
-        }
-        for(int i=max;i<=255;i++){
-            contrastd[i]=1.0;
-        }
-
-        double fazhi = 5.53733d;
-        double stip = (fazhi*2)/((double) (max-min));
-
-        for(int i=min;i<=max;i++){
-            double x=((double) (i-min))*stip-fazhi;
-            contrastd[i] = 1d/(1+Math.pow(2.71828182846d,-x));
-            if(contrastd[i]>1d) contrastd[i] = 1d;
-            else if(contrastd[i]<0d) contrastd[i]=0.0d;
+        for(double i:contrastd){
+            i = ((i-(double)min)/((double)max-(double) min))*255;
+            if(i>255) i = 255.0;
+            if(i<0) i=0.0;
         }
 
         for(int y = 0; y < height; y++) {
             for(int x = 0; x < width; x++) {
                 Color color = image_reader.getColor(x, y);
-                color=Color.color(contrastd[(int)(color.getRed()*255)], contrastd[(int)(color.getGreen()*255)], contrastd[(int)(color.getBlue()*255)]);
+                color=Color.color(contrastd[(int)(color.getRed()*255)]/255d, contrastd[(int)(color.getGreen()*255)]/255d, contrastd[(int)(color.getBlue()*255)]/255d);
+                contrast_image_writer.setColor(x, y, color);
+            }
+        }
+        for(int y = 0; y < height; y++) {
+            for(int x = 0; x < width; x++) {
+                Color color = image_reader.getColor(x, y);
+                color=Color.color(contrastd[(int)(color.getRed()*255)]/255d, contrastd[(int)(color.getGreen()*255)]/255d, contrastd[(int)(color.getBlue()*255)]/255d);
                 contrast_image_writer.setColor(x, y, color);
             }
         }
 
-
-
-
-
+//        for(int i=0;i<min;i++){
+//            contrastd[i]=0.0;
+//        }
+//        for(int i=max;i<=255;i++){
+//            contrastd[i]=1.0;
+//        }
+//
+//        double fazhi = 5.53733d;
+//        double stip = (fazhi*2)/((double) (max-min));
+//
+//        for(int i=min;i<=max;i++){
+//            double x=((double) (i-min))*stip-fazhi;
+//            contrastd[i] = 1d/(1+Math.pow(2.71828182846d,-x));
+//            if(contrastd[i]>1d) contrastd[i] = 1d;
+//            else if(contrastd[i]<0d) contrastd[i]=0.0d;
+//        }
+//
+//        for(int y = 0; y < height; y++) {
+//            for(int x = 0; x < width; x++) {
+//                Color color = image_reader.getColor(x, y);
+//                color=Color.color(contrastd[(int)(color.getRed()*255)], contrastd[(int)(color.getGreen()*255)], contrastd[(int)(color.getBlue()*255)]);
+//                contrast_image_writer.setColor(x, y, color);
+//            }
+//        }
 
         return contrast_image;
     }
-
 
     //主图获取算法
     public Image ImageGetMainMes(Image image,float bilv) {
@@ -1919,9 +1909,6 @@ public class Main extends Application {
         return contrast_image;
     }
 
-
-
-
     //灰度图获取算法
     public Image ImageGetHuiMes(Image image) {
 
@@ -1944,6 +1931,7 @@ public class Main extends Application {
         return contrast_image;
     }
 
+    //全局直方图
     public Image Imagehistogram(Image image) {
         if(selectedFile == null ){
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -2004,6 +1992,7 @@ public class Main extends Application {
         return contrast_image;
     }
 
+    //红色通道直方图
     public Image Imagehistogramred(Image image) {
         if(selectedFile == null ){
             Alert alert1 = new Alert(Alert.AlertType.ERROR);
@@ -2062,7 +2051,7 @@ public class Main extends Application {
         return contrast_image;
     }
 
-    //绿色直方图
+    //绿色通道直方图
     public Image ImagehistogramGreen(Image image) {
         if(selectedFile == null ){
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -2121,7 +2110,7 @@ public class Main extends Application {
         return contrast_image;
     }
 
-    //蓝色直方图
+    //蓝色通道直方图
     public Image ImagehistogramBlue(Image image) {
         if(selectedFile == null ){
             Alert alert = new Alert(Alert.AlertType.ERROR);

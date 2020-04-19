@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1900ce72-b6a5-4d21-a510-f0337af183fa" name="默认的" comment="" />
+    <list default="true" id="1900ce72-b6a5-4d21-a510-f0337af183fa" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PIP/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PIP/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +26,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="1873" column="9" selection-start-line="1873" selection-start-column="9" selection-end-line="1873" selection-end-column="9" />
+            <state relative-caret-position="296">
+              <caret line="1630" column="32" lean-forward="true" selection-start-line="1630" selection-start-column="32" selection-end-line="1630" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#start#0;class#Main#0" />
                 <element signature="method#crop#0;class#Main#0" />
                 <element signature="class#RubberBandSelection#0;class#Main#0" />
                 <element signature="method#Xchange#0;class#Main#0" />
@@ -40,6 +45,7 @@
                 <element signature="method#ImageGamma#0;class#Main#0" />
                 <element signature="method#AppropriateScope#0;class#Main#0" />
                 <element signature="method#ImageRui#0;class#Main#0" />
+                <element signature="method#ImageContrast#0;class#Main#0" />
                 <element signature="method#ImageGetMainMes#0;class#Main#0" />
                 <element signature="method#ImageGetHuiMes#0;class#Main#0" />
                 <element signature="method#Imagehistogram#0;class#Main#0" />
@@ -53,6 +59,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/company/Main.java" root0="SKIP_INSPECTION" />
@@ -77,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,16 +102,25 @@
               <item name="PIP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -212,16 +229,18 @@
       <workItem from="1574167025857" duration="1417000" />
       <workItem from="1574217926233" duration="2052000" />
       <workItem from="1574254128427" duration="37000" />
+      <workItem from="1587298845313" duration="961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24077000" />
+    <option name="totallyTimeSpent" value="25038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16442953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -230,7 +249,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13333334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13210227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,10 +295,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="1873" column="9" selection-start-line="1873" selection-start-column="9" selection-end-line="1873" selection-end-column="9" />
+        <state relative-caret-position="296">
+          <caret line="1630" column="32" lean-forward="true" selection-start-line="1630" selection-start-column="32" selection-end-line="1630" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#Main#0" />
             <element signature="method#crop#0;class#Main#0" />
             <element signature="class#RubberBandSelection#0;class#Main#0" />
             <element signature="method#Xchange#0;class#Main#0" />
@@ -295,6 +314,7 @@
             <element signature="method#ImageGamma#0;class#Main#0" />
             <element signature="method#AppropriateScope#0;class#Main#0" />
             <element signature="method#ImageRui#0;class#Main#0" />
+            <element signature="method#ImageContrast#0;class#Main#0" />
             <element signature="method#ImageGetMainMes#0;class#Main#0" />
             <element signature="method#ImageGetHuiMes#0;class#Main#0" />
             <element signature="method#Imagehistogram#0;class#Main#0" />
