@@ -1277,7 +1277,6 @@ public class Main extends Application {
 
     }
 
-
     public  class RubberBandSelection {
 
         final DragContext dragContext = new DragContext();
@@ -1385,7 +1384,6 @@ public class Main extends Application {
         }
     }
 
-
     //水平翻转
     public Image Xchange(Image image) {
 
@@ -1420,7 +1418,6 @@ public class Main extends Application {
         return inverted_image;
     }
 
-
     //剪切代码
     public Image Cut(Image image,int x1,int y1,int x2,int y2) {
 
@@ -1438,7 +1435,6 @@ public class Main extends Application {
 
         return cutimageview.getImage();
     }
-
 
     //图像旋转
     public Image terchange(Image image) {
@@ -1530,7 +1526,6 @@ public class Main extends Application {
         }
         return inverted_image;
     }
-
 
     //亮度增算法
     public Image ImageLight(Image image,double value) {
@@ -1711,7 +1706,6 @@ public class Main extends Application {
         return gamma_image;
     }
 
-
     //找到合适的拉伸范围
     public int [] AppropriateScope(Image image,double maximumLoss){
         int scope[] = new int[2];
@@ -1768,7 +1762,6 @@ public class Main extends Application {
         return scope;
     }
 
-
     //锐化算法
     public Image ImageRui(Image image,double value) {
 
@@ -1807,7 +1800,6 @@ public class Main extends Application {
         }
         return contrast_image;
     }
-
 
     //对比度拉伸
     public Image ImageContrast(Image image,int min,int max) {

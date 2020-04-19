@@ -6,10 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1900ce72-b6a5-4d21-a510-f0337af183fa" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1900ce72-b6a5-4d21-a510-f0337af183fa" name="默认的" comment="默认的">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PIP/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PIP/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="1630" column="32" lean-forward="true" selection-start-line="1630" selection-start-column="32" selection-end-line="1630" selection-end-column="32" />
+            <state relative-caret-position="304">
+              <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
               <folding>
                 <element signature="method#start#0;class#Main#0" />
                 <element signature="method#crop#0;class#Main#0" />
@@ -229,12 +227,20 @@
       <workItem from="1574167025857" duration="1417000" />
       <workItem from="1574217926233" duration="2052000" />
       <workItem from="1574254128427" duration="37000" />
-      <workItem from="1587298845313" duration="961000" />
+      <workItem from="1587298845313" duration="1009000" />
     </task>
+    <task id="LOCAL-00001" summary="默认的">
+      <created>1587299815987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587299815987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25038000" />
+    <option name="totallyTimeSpent" value="25086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -274,6 +280,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="默认的" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认的" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/main.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -295,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="1630" column="32" lean-forward="true" selection-start-line="1630" selection-start-column="32" selection-end-line="1630" selection-end-column="32" />
+        <state relative-caret-position="304">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
           <folding>
             <element signature="method#start#0;class#Main#0" />
             <element signature="method#crop#0;class#Main#0" />
