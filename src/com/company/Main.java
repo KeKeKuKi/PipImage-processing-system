@@ -42,7 +42,6 @@ import java.util.LinkedList;
 import java.util.Optional;
 
 public class Main extends Application {
-
     RubberBandSelection rubberBandSelection;
     File selectedFile = null;
     Image image = null;
