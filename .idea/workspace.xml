@@ -5,12 +5,15 @@
       <artifact name="PIP:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1900ce72-b6a5-4d21-a510-f0337af183fa" name="默认的" comment="默认的">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,45 +21,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-              <folding>
-                <element signature="method#start#0;class#Main#0" />
-                <element signature="method#crop#0;class#Main#0" />
-                <element signature="class#RubberBandSelection#0;class#Main#0" />
-                <element signature="method#Xchange#0;class#Main#0" />
-                <element signature="method#Ychange#0;class#Main#0" />
-                <element signature="method#Cut#0;class#Main#0" />
-                <element signature="method#terchange#0;class#Main#0" />
-                <element signature="method#ImageBaohe#0;class#Main#0" />
-                <element signature="method#ImageLight#0;class#Main#0" />
-                <element signature="method#openimage#0;class#Main#0" />
-                <element signature="method#saveimage#0;class#Main#0" />
-                <element signature="method#ImageInverter#0;class#Main#0" />
-                <element signature="method#ImageXiangao#0;class#Main#0" />
-                <element signature="method#ImageGamma#0;class#Main#0" />
-                <element signature="method#AppropriateScope#0;class#Main#0" />
-                <element signature="method#ImageRui#0;class#Main#0" />
-                <element signature="method#ImageContrast#0;class#Main#0" />
-                <element signature="method#ImageGetMainMes#0;class#Main#0" />
-                <element signature="method#ImageGetHuiMes#0;class#Main#0" />
-                <element signature="method#Imagehistogram#0;class#Main#0" />
-                <element signature="method#Imagehistogramred#0;class#Main#0" />
-                <element signature="method#ImagehistogramGreen#0;class#Main#0" />
-                <element signature="method#ImagehistogramBlue#0;class#Main#0" />
-                <element signature="method#ImagehistogramLight#0;class#Main#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,6 +81,10 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -128,10 +96,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -140,18 +109,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PIP\src\com\company" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -185,6 +142,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -228,6 +186,7 @@
       <workItem from="1574217926233" duration="2052000" />
       <workItem from="1574254128427" duration="37000" />
       <workItem from="1587298845313" duration="1009000" />
+      <workItem from="1646990183195" duration="1534000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1587299815987</created>
@@ -278,7 +237,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="默认的" />
